@@ -20,6 +20,7 @@ An AI agent skill pack for making short-form videos: **news clips, explainer ree
 | [`loopreel-motion-director`](skills/loopreel-motion-director/SKILL.md) | Plan, build and render a short motion film in code |
 | [`mg-styles-review-rubric`](skills/mg-styles-review-rubric/SKILL.md) | Art-director rubric for scoring motion-graphics styles |
 | [`mg-styles-prompt-template`](skills/mg-styles-prompt-template/SKILL.md) | Fill-in template for motion-graphics style prompts |
+| [`neuron-visuals-contrast-reels`](skills/neuron-visuals-contrast-reels/SKILL.md) | Silent 9:16 contrast reels: faceless white figures on a black mirror floor, two habits, storytelling through easing |
 
 ## Video conventions
 1. **Captions small**, and **never over a face**.
@@ -46,6 +47,9 @@ Remotion skills assume Node 18+, ffmpeg and Python 3. Install the official Remot
 - [Loopreel](https://loopreel-nine.vercel.app/): source and inspiration for the motion director, frame review loop and MG styles skills.
 - [Awesome Opus 5.5 videos](https://github.com/yihui-dev/awesome-opus5-5-videos) (MIT, yihui-dev): the prompt library behind the `awesome-opus5-5-videos` skill. The data isn't bundled here; clone it from upstream.
 - [Remotion](https://www.remotion.dev/): the video framework behind the promos.
+- Instagram [@neuronvisuals](https://www.instagram.com/neuronvisuals/): the public figure-contrast reel grammar was studied from that channel's public posts for the `neuron-visuals-contrast-reels` skill. There is no affiliation, and no assets, captions, watermark, or audio were copied from that channel.
+- [three.js](https://threejs.org/) (MIT): bundled in the contrast-reel engine as `vendor/three.module.js`.
+- [Inter](https://rsms.me/inter/) and [Inter Tight](https://github.com/rsms/inter-tight) (SIL Open Font License 1.1): bundled fonts. See `skills/neuron-visuals-contrast-reels/engine/assets/fonts/OFL.txt`.
 
 ## License
 MIT. See [LICENSE](LICENSE).
