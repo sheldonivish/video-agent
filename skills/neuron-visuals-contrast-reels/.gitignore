@@ -1,0 +1,13 @@
+# Local renders and work files
+output/
+**/frames_raw/
+**/_encode_work/
+*.mp4
+contact_sheet.jpg
+cover.png
+encode_stats.json
+
+# User brand mark — add your own at engine/assets/wordmark.png
+engine/assets/wordmark.png
+__pycache__/
+*.pyc

@@ -8,6 +8,8 @@ description: >-
 ---
 # Screenshot-driven product promo (Remotion)
 
+Starter code: `kits/remotion-kit/` (brand tokens, layouts, camera-over-screenshot, cursor, captions, counters, transitions, SFX/music synthesis, capture and loudness scripts). Launch-film structure and facts-of-record rules: `skills/remotion-launch-film`.
+
 Worked examples (structure to copy in your own project):
 - A 60-second feature launch: a hook composition, `src/launch/*.tsx` scenes plus `common.tsx` helpers, a 9:16 and a 16:9 composition, and a Python script that synthesizes the SFX.
 - A 20-second viral promo: `src/copy.ts` for all copy, `src/ui.tsx` + `src/scenes.tsx` for components and scenes, `scripts/audio.py` for the full music and SFX mix, 9:16 and 16:9 compositions.

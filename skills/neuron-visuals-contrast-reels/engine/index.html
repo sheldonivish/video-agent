@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>NV Engine</title>
+  <link rel="icon" href="data:,">
+  <style>
+    @font-face {
+      font-family: Inter;
+      src: url("./assets/fonts/Inter.ttf") format("truetype");
+      font-weight: 100 900;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Inter Tight";
+      src: url("./assets/fonts/InterTight.ttf") format("truetype");
+      font-weight: 100 900;
+      font-style: normal;
+    }
+    html, body {
+      margin: 0;
+      background: #000;
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+    }
+    #stage {
+      position: relative;
+      width: 1080px;
+      height: 1920px;
+      background: #000;
+    }
+    canvas {
+      position: absolute;
+      inset: 0;
+      display: block;
+      background: #000;
+    }
+    #overlay {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+    .label {
+      position: absolute;
+      left: 88px;
+      font-family: Inter, sans-serif;
+      font-weight: 600;
+      font-size: 26px;
+      letter-spacing: 0.16em;
+      color: #f3f3f3;
+      text-transform: uppercase;
+      text-shadow: 0 0 18px rgba(0,0,0,0.85);
+    }
+    #label-top { top: 172px; }
+    #label-bottom { top: 992px; }
+    #label-left, #label-right { display: none; top: 520px; }
+    body.layout-left-right #label-top,
+    body.layout-left-right #label-bottom,
+    body.layout-left-right #divider,
+    body.layout-left-right #counter-wrap { display: none; }
+    body.layout-left-right #label-left,
+    body.layout-left-right #label-right { display: block; }
+    #label-left { left: 48px; }
+    #label-right { left: 588px; }
+    #divider {
+      position: absolute;
+      top: 959px;
+      left: 90px;
+      right: 90px;
+      height: 1px;
+      background: #2c2c2c;
+    }
+    #counter-wrap {
+      position: absolute;
+      top: 938px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #000;
+      border: 1px solid #2a2a2a;
+      border-radius: 999px;
+      padding: 7px 18px 6px;
+      min-width: 118px;
+      text-align: center;
+    }
+    #counter {
+      font-family: Inter, sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: 0.18em;
+      color: #f0f0f0;
+      text-transform: uppercase;
+    }
+    #punchline {
+      position: absolute;
+      top: 92px;
+      left: 50px;
+      right: 50px;
+      text-align: center;
+      font-family: "Inter Tight", Inter, sans-serif;
+      font-weight: 800;
+      font-size: 40px;
+      letter-spacing: 0.08em;
+      color: #f5f5f5;
+      text-transform: uppercase;
+      opacity: 0;
+      line-height: 1.15;
+    }
+    #wordmark {
+      position: absolute;
+      bottom: 78px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 236px;
+      height: auto;
+      opacity: 0.78;
+    }
+    #vignette {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 46%, rgba(0,0,0,0) 38%, rgba(0,0,0,0.42) 100%);
+    }
+    #fade {
+      position: absolute;
+      inset: 0;
+      background: #000;
+      opacity: 0;
+    }
+  </style>
+</head>
+<body class="layout-top-bottom">
+  <div id="stage">
+    <canvas id="c" width="1080" height="1920"></canvas>
+    <div id="overlay">
+      <div id="punchline"></div>
+      <div id="label-top" class="label"></div>
+      <div id="label-bottom" class="label"></div>
+      <div id="label-left" class="label"></div>
+      <div id="label-right" class="label"></div>
+      <div id="divider"></div>
+      <div id="counter-wrap"><div id="counter"></div></div>
+      <img id="wordmark" src="./assets/wordmark.png" alt="" onerror="this.style.display='none'" />
+      <div id="vignette"></div>
+      <div id="fade"></div>
+    </div>
+  </div>
+  <script type="module">
+    import * as THREE from './vendor/three.module.js';
+    import { createApp } from './src/nv.js';
+
+    const params = new URLSearchParams(location.search);
+    const scriptUrl = params.get('script') || '../examples/pumps_vs_dca.js';
+    const mod = await import(scriptUrl);
+    const app = await createApp(THREE, document.getElementById('c'), mod.script || mod.default || {});
+    window.NV_seek = (frame) => app.seek(frame);
+    window.NV_info = () => app.info;
+    window.NV_ready = true;
+    app.seek(0);
+  </script>
+</body>
+</html>

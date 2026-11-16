@@ -1,0 +1,13 @@
+{
+  "name": "yourbrand",
+  "font_path": "/path/to/YourBrandFont-VariableFont_wght.ttf",
+  "logo_dark": "/path/to/logo-for-dark-backgrounds.png",
+  "logo_light": "/path/to/logo-for-light-backgrounds.png",
+  "colors": {
+    "base": "#0B0C0E", "surface": "#181A1D", "muted": "#8B9098", "text": "#F7F8F8",
+    "up": "#2ECC71", "down": "#00B8D9",
+    "gradient_from": "#2ECC71", "gradient_to": "#00B8D9"
+  },
+  "endcard_line": "Your short directional line.",
+  "endcard_sub": "yourbrand.com"
+}
