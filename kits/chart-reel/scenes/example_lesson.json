@@ -1,0 +1,326 @@
+{
+ "id": "lesson01",
+ "meta": {
+  "duration": 16.0,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "eyebrow": "BTCUSDT  ·  4H  ·  BINANCE SPOT",
+  "chartTag": "LESSON 01",
+  "silent": true,
+  "format": "16s lesson reel, chart-first, silent / music-ready"
+ },
+ "data": {
+  "path": "data/btc_1h_spot.json",
+  "from": "2023-09-10T00:00:00Z",
+  "to": "2023-10-05T00:00:00Z",
+  "resample_hours": 4
+ },
+ "price": {
+  "grid_step": 500
+ },
+ "layout": {
+  "plot": {
+   "x0": 0,
+   "x1": 1080,
+   "y0": 0,
+   "y1": 1920
+  },
+  "pad": 0.05,
+  "band": [
+   70.0,
+   1796.0
+  ],
+  "overscanX": 0
+ },
+ "draw": {
+  "t0": -3.3,
+  "dur": 4.6,
+  "grow": 0.3
+ },
+ "camera": [
+  {
+   "at": 0.0,
+   "zoom": 1.5,
+   "cx": 372.0,
+   "cy": 1243.3
+  },
+  {
+   "at": 1.9,
+   "zoom": 1.46,
+   "cx": 430.0,
+   "cy": 1209.4
+  },
+  {
+   "at": 3.6,
+   "zoom": 1.52,
+   "cx": 540.0,
+   "cy": 680.9
+  },
+  {
+   "at": 5.6,
+   "zoom": 1.48,
+   "cx": 610.0,
+   "cy": 758.5
+  },
+  {
+   "at": 7.3,
+   "zoom": 1.55,
+   "cx": 650.0,
+   "cy": 1228.8
+  },
+  {
+   "at": 9.0,
+   "zoom": 1.5,
+   "cx": 700.0,
+   "cy": 1199.7
+  },
+  {
+   "at": 10.4,
+   "zoom": 1.56,
+   "cx": 718.0,
+   "cy": 545.2
+  },
+  {
+   "at": 11.8,
+   "zoom": 1.38,
+   "cx": 665.0,
+   "cy": 671.2
+  },
+  {
+   "at": 13.0,
+   "zoom": 1.0,
+   "cx": 540.0,
+   "cy": 933.0
+  },
+  {
+   "at": 14.6,
+   "zoom": 1.13,
+   "cx": 562.0,
+   "cy": 902.0
+  },
+  {
+   "at": 16.6,
+   "zoom": 1.27,
+   "cx": 580.0,
+   "cy": 874.8
+  }
+ ],
+ "levels": [],
+ "axisTags": [],
+ "pivots": [
+  {
+   "id": "L1",
+   "kind": "low",
+   "price": 24901.0,
+   "ts": "2023-09-11T20:00:00Z",
+   "r": 34,
+   "color": "ink",
+   "at": -0.15,
+   "dur": 0.52,
+   "badge": {
+    "text": "1",
+    "dx": -58,
+    "dy": 50,
+    "r": 26,
+    "color": "ink"
+   }
+  },
+  {
+   "id": "H1",
+   "kind": "high",
+   "price": 27483.57,
+   "ts": "2023-09-19T16:00:00Z",
+   "r": 34,
+   "color": "amber",
+   "at": 2.55,
+   "dur": 0.5,
+   "badge": {
+    "text": "2",
+    "dx": -58,
+    "dy": -52,
+    "r": 26,
+    "color": "amber"
+   }
+  },
+  {
+   "id": "L2",
+   "kind": "low",
+   "price": 25990.46,
+   "ts": "2023-09-25T12:00:00Z",
+   "r": 34,
+   "color": "ink",
+   "at": 6.15,
+   "dur": 0.5,
+   "badge": {
+    "text": "3",
+    "dx": -58,
+    "dy": 52,
+    "r": 26,
+    "color": "ink"
+   }
+  },
+  {
+   "id": "H2",
+   "kind": "high",
+   "price": 28580.0,
+   "ts": "2023-10-02T12:00:00Z",
+   "r": 34,
+   "color": "up",
+   "at": 9.15,
+   "dur": 0.5,
+   "badge": {
+    "text": "4",
+    "dx": -58,
+    "dy": -52,
+    "r": 26,
+    "color": "amber"
+   }
+  }
+ ],
+ "tags": [
+  {
+   "at": 0.45,
+   "i": 11,
+   "price": 24901.0,
+   "text": "24,901",
+   "sub": "11 SEP  ·  LOW",
+   "side": "right",
+   "size": 38,
+   "weight": 800,
+   "color": "ink",
+   "gap": 44,
+   "dy": 6,
+   "out": 5.3,
+   "outDur": 0.3
+  },
+  {
+   "at": 3.05,
+   "i": 58,
+   "price": 27483.57,
+   "text": "27,483",
+   "sub": "19 SEP  ·  HIGH",
+   "side": "left",
+   "size": 38,
+   "weight": 800,
+   "color": "ink",
+   "gap": 44,
+   "dy": -96,
+   "out": 7.9,
+   "outDur": 0.3
+  },
+  {
+   "at": 6.7,
+   "i": 93,
+   "price": 25990.46,
+   "text": "25,990",
+   "sub": "25 SEP  ·  HIGHER LOW",
+   "side": "left",
+   "size": 38,
+   "weight": 800,
+   "color": "ink",
+   "gap": 44,
+   "dy": 96,
+   "out": 10.9,
+   "outDur": 0.3
+  },
+  {
+   "at": 9.7,
+   "i": 135,
+   "price": 28580.0,
+   "text": "28,580",
+   "sub": "2 OCT  ·  HIGHER HIGH",
+   "side": "left",
+   "size": 38,
+   "weight": 800,
+   "color": "up",
+   "gap": 44,
+   "dy": -88,
+   "out": 12.2,
+   "outDur": 0.28
+  },
+  {
+   "at": 11.0,
+   "i": 58,
+   "price": 27483.57,
+   "text": "HIGHS  +1,096.43",
+   "side": "right",
+   "size": 27,
+   "weight": 800,
+   "color": "amber",
+   "gap": 30,
+   "dy": -150,
+   "out": 12.15,
+   "outDur": 0.25
+  },
+  {
+   "at": 11.35,
+   "i": 11,
+   "price": 24901.0,
+   "text": "LOWS  +1,089.46",
+   "side": "right",
+   "size": 27,
+   "weight": 800,
+   "color": "ink",
+   "gap": 30,
+   "dy": 150,
+   "out": 12.15,
+   "outDur": 0.25
+  }
+ ],
+ "polylines": [
+  {
+   "at": 10.45,
+   "dur": 1.05,
+   "color": "amber",
+   "width": 3.2,
+   "dash": true,
+   "alpha": 0.95,
+   "endDot": true,
+   "points": [
+    [
+     58,
+     27483.57
+    ],
+    [
+     135,
+     28580.0
+    ]
+   ]
+  },
+  {
+   "at": 10.8,
+   "dur": 0.9,
+   "color": "ink",
+   "width": 3.0,
+   "dash": true,
+   "alpha": 0.9,
+   "endDot": true,
+   "points": [
+    [
+     11,
+     24901.0
+    ],
+    [
+     93,
+     25990.46
+    ]
+   ]
+  }
+ ],
+ "title": {
+  "text": "HIGHER HIGHS.",
+  "line2": "HIGHER LOWS.",
+  "at": 12.45,
+  "fadeIn": 0.26,
+  "size": 96,
+  "cy": 880,
+  "rule": 112,
+  "ruleColor": "acc"
+ },
+ "endcard": {
+  "at": 15.15,
+  "text": "yourbrand"
+ },
+ "captions": []
+}

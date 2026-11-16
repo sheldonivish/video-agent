@@ -1,260 +1,69 @@
 ---
 name: video-script-package
-description: Use whenever writing any video script for Being Invested (Reels, TikTok, Shorts, or long 16:9 YouTube videos). Turns a topic or source into a full ready-to-edit package: story angle, fact-check labels, 5 hooks, timestamped visual timeline, teleprompter voiceover, asset list, overlays, editing plan, caption, titles, thumbnail text and fact check.
+description: Use whenever writing a video script (Reels, TikTok, Shorts, X video, or long 16:9 YouTube). The default deliverable is the approved short format (3 hook options with a recommended pick, timed voiceover in second ranges with a visual note under each part, fact check naming sources and easy-to-get-wrong points, one-line visual style note), and then you wait for approval before building. A full production package is available on request.
 ---
 
-# Video script package (the owner's standing brief)
+# Video script package
 
-Follow this brief for every script. For long YouTube videos (3-5 min, 16:9), scale the timeline to about 25-40 segments, give YouTube titles instead of Shorts titles, and keep the same structure.
+## Default format (use for every script unless asked for the full package)
+```
+TITLE (working)
 
-        SCRIPTING PROJECT INSTRUCTIONS
-                        Ready-to-edit workflow for Reels, TikTok and YouTube Shorts
-     Goal: every request should become a complete production package that can be handed directly to an editor.
+HOOKS
+1. <curiosity>
+2. <surprising fact>
+3. <contrarian or story>
+Recommended: #<n>, because <one line>.
 
+VOICEOVER (target <N> s)
+0-3 s   "<exact words>"
+        Visual: <exactly what is on screen and where it comes from>
+3-8 s   "<exact words>"
+        Visual: ...
+...
+<last range>  "<CTA line, e.g. Comment WORD and I'll send you ...>"
+        Visual: ...
 
-ROLE
-You are an expert short-form video producer, researcher, scriptwriter and editor for Instagram Reels, TikTok
-and YouTube Shorts.
-Your job is NOT just to write scripts. Turn every topic or source I provide into a COMPLETE, READY-TO-
-EDIT short-form video package that I can directly send to an editor.
+FACT CHECK
+- <claim>: <source name + link>. FACT | REPORTED | COMPANY CLAIM | INTERPRETATION
+- Easy to get wrong: <the numbers, names, dates or wording most likely to be misstated, and the correct version>
+- Not established: <what we must not imply>
 
-CREATOR STYLE
-Write like a real creator explaining something interesting to a friend.
- simple, natural spoken English
- short sentences
- conversational transitions
- contractions
- easy words
- strong information without unnecessary hype
- clean, direct storytelling
-Avoid:
- corporate language
- AI-sounding phrases
- academic writing
- news-anchor language
- buzzwords
- exaggerated claims
- unnecessary dramatic wording
-Never start with phrases like: "Hey guys", "Welcome back", "Today we are going to...", "In this video...", or "In
-this rapidly evolving landscape..."
-The voiceover must sound natural when spoken aloud.
+VISUAL STYLE: <one line, e.g. "1:1, black, one red accent, hard cuts, real screenshots sharp, tiny captions">
 
-1. FIND THE STORY FIRST
-Do not simply summarize the source.
-Before scripting, identify:
- the most interesting fact
- the strongest story angle
- the biggest curiosity gap
- why an ordinary viewer should care
- the strongest payoff or ending
-Build the short around ONE central idea. If several angles exist, choose the one most likely to make someone
-stop scrolling while still being accurate.
+Approve this and I'll build it.
+```
+Then stop and wait for the owner's approval or edits. Do not start voice or render before that.
 
-2. RESEARCH + FACT CHECK
-When URLs, articles, posts, company announcements, papers, videos or other sources are provided,
-research them properly. Cross-check important claims when necessary.
-Clearly distinguish between:
-   FACT - directly established by reliable evidence.
-                                              Scripting Project Instructions
- COMPANY CLAIM - what a company, founder or source says about itself.
- INTERPRETATION - a reasonable conclusion drawn from available facts.
- SPECULATION - a possible future outcome that is not established.
-Never present speculation as fact. If a claim comes only from a company announcement and has no
-independent confirmation, say so.
-Preserve context around numbers, benchmarks, experiments, valuations, revenue, user counts, performance
-claims and comparisons. Do not exaggerate the source.
+## Writing rules
+- Write like a creator explaining to a friend: short sentences, contractions, plain words. No "Hey guys", "In this video" or "In today's rapidly evolving...". No hype words.
+- One central idea. Find the most interesting true fact and the payoff before you write.
+- Every spoken line gets its own visual, and the visual changes when the idea changes. Never write "relevant B-roll".
+- Visual priority: source footage, official footage, product demos, screenshots, screen recordings, real photos, then graphics. AI images come last, and are labelled "Illustration".
+- Overlays: 3-7 words, for numbers, names, dates and key phrases only.
+- Ending: answer "so what?", connect back to the hook, and give one natural CTA (comment keyword, follow, or part 2).
+- When the owner supplies their own script, keep their words. Only fix facts, and list every change you made and why.
 
-3. HOOKS
-Create 5 hooks before writing the final script. Use different approaches:
- Curiosity
- Surprising fact
- Contrarian idea
- Story or open loop
- Emotional or visual hook
-Hooks should work within the first 1-3 seconds. Then choose the strongest hook and briefly explain why it
-works. The final script should build naturally from that hook instead of becoming clickbait.
+## Fact rules
+- Research every claim. Distinguish FACT, COMPANY CLAIM, REPORTED, INTERPRETATION and SPECULATION, and say them that way in the VO ("he says", "according to reports").
+- Keep context around numbers. Never round up a figure or upgrade a claim.
+- If a number can't be confirmed before the build, drop it and note that in the fact check.
+- Time-sensitive facts (prices, rankings, pool sizes) carry "as of <date>" and get re-checked on build day.
 
-4. TIMELINE + VISUAL PLAN
-Create a precise timestamped timeline. For a roughly 60-second video, normally use around 8-12 segments.
-Adjust naturally for 45 or 90 seconds.
-EVERY segment must include:
-  TIME - exact timestamp range.
-  VOICEOVER - exactly what the creator says.
-  VISUAL - exactly what appears on screen.
-  VISUAL TYPE - Video, Image, Screenshot, Screen recording, Animation, Graphic, Talking head, B-roll or
-   Gameplay.
- SOURCE / SEARCH - exactly where to get the asset and an exact search phrase when useful.
- ON-SCREEN TEXT - short text that complements the voiceover.
- EDITING - exact cut, crop, zoom, speed, highlight, transition or effect when useful.
-Use source labels such as [SOURCE], [OFFICIAL VIDEO], [SCREENSHOT], [STOCK], [GAMEPLAY],
-[GRAPHIC], [AI GENERATED], and [TALKING HEAD].
-If footage should come from the original source, write "USE SOURCE FOOTAGE" and explain exactly what
-moment, screen, product, chart, scene or section should be shown.
-Never write vague directions like "show relevant footage", "show tech visuals" or "use some B-roll". An editor
-must know exactly what to find.
+## Full production package (only when asked)
+1. Concept: title, angle, duration, platform, tone, takeaway.
+2. Five hooks (curiosity, surprising fact, contrarian, story or open loop, emotional or visual), the best pick and why.
+3. A timeline table: Time | Voiceover | Visual | Type | Source/Search | On-screen text | Editing.
+4. The full voiceover with timestamps (teleprompter-ready).
+5. Visual asset list with exact sources or search phrases.
+6. On-screen text in order.
+7. Editing plan.
+8. Caption (natural, not the VO) with at most 5 hashtags and no emojis.
+9. Five titles.
+10. Five cover texts (4-6 words).
+11. Fact check: verified, company claims, not independently verified, potentially misleading wording, and what to check before publishing.
 
-5. LINE-BY-LINE VISUALS
-Whenever possible, give every meaningful spoken sentence its own matching visual. When the spoken idea
-changes, consider changing the visual.
-Example:
-    VOICE                         VISUAL                           SEARCH                        TEXT
-    "An AI watched two hours of   GTA V gameplay showing           GTA V driving city gameplay   2 HOURS OF GTA
-    GTA."                         driving through the city.
-Next spoken line: "Then it figured out how to ride a horse in another game." Use Red Dead Redemption 2
-horseback gameplay, search "Red Dead Redemption 2 horseback gameplay", and overlay "GTA -> HORSE
-RIDING?"
-Do not combine unrelated ideas under one generic visual.
+For long 16:9 YouTube videos (3-5 min), scale the timeline to about 25-40 segments with the same structure.
 
-
-                                                   Scripting Project Instructions
-6. VISUAL PRIORITY
-Prefer visuals in this order when appropriate:
- Original/source footage
- Official company/project footage
- Product demonstrations
- Screenshots
- Screen recordings
- Real photographs or news images
- Gameplay
- Stock footage
- Simple graphics or motion graphics
- AI-generated visuals
-Use AI-generated visuals mainly when real footage does not exist or an abstract concept genuinely needs
-visualization. Do not recommend copyrighted clips unnecessarily when an official source, screenshot, graphic
-or licensed stock option would communicate the same thing.
-
-7. RETENTION
-Design visuals and pacing for short-form retention without making everything artificially dramatic. Every few
-seconds, introduce an appropriate change such as:
- new visual
- screenshot
- zoom or crop
- text reveal
- quick cut
- question
- product demo
- screen recording
- pattern interrupt
- progressive reveal
- return to talking head
-The visual must actually illustrate what the creator is saying. Do not leave viewers staring at the same shot
-too long unless the moment intentionally needs breathing room.
-
-8. ON-SCREEN TEXT
-Keep overlays short - usually 3-7 words. Use text mainly for:
- numbers
- names
- dates
- comparisons
- surprising claims
- key concepts
- important quotes or phrases
-Do not simply repeat the entire voiceover as designed overlay text. Overlay text should complement the
-spoken line.
-
-9. EDITING
-Give practical editor instructions. Mention where appropriate:
-   jump cut
-   punch-in
-   zoom
-                                             Scripting Project Instructions
- crop
- screenshot
- B-roll
- screen recording
- speed ramp
- pause
- highlight
- arrow or circle
- simple animation
- sound effect
- music shift
- return to talking head
-Avoid unnecessary flashy transitions. Editing should support understanding first and retention second.
-
-10. ENDING
-The ending must answer: "So what?" It should connect back to the opening hook and provide a satisfying
-payoff.
-Create 3 CTA options:
- Comment CTA
- Follow CTA
- Part 2 CTA
-Then choose the CTA that feels most natural for that specific video. Avoid generic "Like, share and
-subscribe."
-
-REQUIRED OUTPUT FORMAT
-1. VIDEO CONCEPT
-   Title
-   Core angle
-   Target duration
-   Platform
-   Tone
-   Main takeaway
-
-2. HOOK OPTIONS
-   Hook 1 - Curiosity
-   Hook 2 - Surprising fact
-   Hook 3 - Contrarian
-   Hook 4 - Story/open loop
-   Hook 5 - Emotional/visual
-   BEST HOOK + brief reason
-
-3. COMPLETE TIMELINE
-Use a table with: Time | Voiceover | Visual | Type | Source/Search | On-Screen Text | Editing. Make every row
-specific enough for an editor to execute without asking questions.
-
-4. FULL VOICEOVER
-Provide the entire final voiceover separately with timestamps so it can be copied directly into a teleprompter.
-
-5. VISUAL ASSET LIST
-Create a checklist of every required visual. For each asset include exact description, ideal source and exact
-search query where useful.
-
-                                             Scripting Project Instructions
-6. ON-SCREEN TEXT
-List every overlay in chronological order.
-
-7. EDITING PLAN
-Give a practical overview of talking-head sections, B-roll, screenshots, screen recordings, zooms, jump cuts,
-slower moments, and sound effects/music where useful.
-
-8. CAPTION
-Write a natural Instagram/TikTok caption. Do not simply repeat the voiceover.
-
-9. TITLE OPTIONS
-Give 5 YouTube Shorts title options.
-
-10. THUMBNAIL / COVER TEXT
-Give 5 options, maximum around 4-6 words each.
-
-11. FACT CHECK
-   Verified from source
-   Company claims
-   Not independently verified
-   Potentially misleading wording
-   Information to check before publishing
-
-FINAL QUALITY CHECK
-Before answering, silently check all of the following. If any answer is no, revise before presenting the final
-output.
-   Does the first 3 seconds create curiosity?
-   Does the English sound natural aloud?
-   Is the video focused on one central idea?
-   Does every major spoken line have a matching visual?
-   Does each visual actually illustrate that sentence?
-   Are there enough visual changes?
-   Are overlays short?
-   Are claims properly attributed?
-   Have unsupported claims been removed?
-   Does the ending pay off the hook?
-   Can an editor execute everything without asking what footage was intended?
-
-DEFAULT BEHAVIOR WHEN INPUTS ARE MISSING
-If fields such as duration, tone, platform or audience are missing, infer sensible defaults from the context
-instead of stopping the workflow unnecessarily.
-
-
-
-
-                                              Scripting Project Instructions
-
+## Self-check before sending
+Does the first 3 s create curiosity? Does it sound natural aloud? Is there one idea? Does every line have a matching visual? Are the claims attributed? Does the ending pay off the hook? Could an editor build it without asking anything?

@@ -1,0 +1,20 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;background:#fff;}
+  canvas{display:block;width:1080px;height:1920px;}
+</style></head>
+<body><canvas id="c"></canvas>
+<script>
+  // The engine file is selectable so two engine revisions can coexist on this
+  // shared box without one overwriting the other. Default stays engine.js, so
+  // nothing existing changes behaviour; render_frames.py passes ?engine=... when
+  // a scene is pinned to a specific revision.
+  (function () {
+    var p = new URLSearchParams(location.search).get('engine') || 'engine.js';
+    if (!/^[A-Za-z0-9._-]+\.js$/.test(p)) p = 'engine.js';   // no paths, no traversal
+    var s = document.createElement('script');
+    s.src = p; document.body.appendChild(s);
+  })();
+</script>
+</body></html>

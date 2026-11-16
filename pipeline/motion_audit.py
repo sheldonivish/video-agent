@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Measure how alive a video is. Usage: motion_audit.py file.mp4 [fps]
 MOVING = share of frames where >1% of pixels changed by >10 grey levels.
-PASS = MOVING >= 85%. The graphinsight reference reels score 93-96%.
+PASS = MOVING >= 85%. Top chart-education reference reels measured 93-96%.
 Exit 0 pass, 1 fail on motion, 2 file missing/empty."""
 import subprocess, sys, os, numpy as np
 f = sys.argv[1]

@@ -1,0 +1,20 @@
+# secrets and local config
+.env
+.env.*
+*.key
+kits/series-kit/brand.json
+# dependencies and builds
+node_modules/
+build/
+out/
+output/
+data/
+audio_cache/
+__pycache__/
+*.pyc
+# media is never committed (renders, music, client footage)
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.m4a
