@@ -5,14 +5,17 @@ An AI agent skill pack for making short-form videos that are fact-checked, appro
 ## Skills
 | Skill | One line |
 |---|---|
-| [`video-agent-getting-started`](skills/video-agent-getting-started/SKILL.md) | First chat with a new owner: brand kit, voice, posting tool, music, formats, house rules |
-| [`video-script-package`](skills/video-script-package/SKILL.md) | The approval script format: 3 hooks with a pick, timed VO with visuals, fact check, style line; full package on request |
+| [`video-agent-getting-started`](skills/video-agent-getting-started/SKILL.md) | First chat with a new owner: brands, formats, voice and music |
+| [`house-rules`](skills/house-rules/HOUSE_RULES.md) | Standing rules for scripts, motion, Remotion promos, review and delivery |
+| [`video-script-package`](skills/video-script-package/SKILL.md) | Any video script (Reels, Shorts, TikTok, long YouTube): research, hooks, timeline and fact check |
 | [`short-form-video-package`](skills/short-form-video-package/brief.txt) | The long-form scripting brief (5 hooks, timeline table, asset list, titles, thumbnails) |
 | [`brand-motion-kit`](skills/brand-motion-kit/SKILL.md) | Fill-in brand kit template (logos, colours, type, casing, end card) plus the rules for using it |
 | [`video-pipeline`](skills/video-pipeline/SKILL.md) | Shared tools: voice with timings, ASR check, mastering to -14 LUFS, motion gate, QA, cover |
 | [`image-led-explainer`](skills/image-led-explainer/SKILL.md) | Real screenshots and quote cards, static sharp stills, hard cuts, fast image-packed first 10 s |
 | [`chart-first-lesson-reels`](skills/chart-first-lesson-reels/SKILL.md) | 15-18 s trading lessons on real candles: chart live on frame 1, Catmull-Rom camera, at least 85% moving frames |
 | [`news-story-reel`](skills/news-story-reel/SKILL.md) | Timeline-structured news shorts with strict reported-versus-confirmed attribution |
+| [`premium-tech-news-reel`](skills/premium-tech-news-reel/SKILL.md) | 30-60 s vertical tech-news reels: split-screen hook, b-roll, kinetic titles and a branded end card |
+| [`ledger-noir`](skills/ledger-noir/SKILL.md) | Editorial finance shorts: one-breath hook, ~45 s wire-service VO, near-monochrome collage, one accent |
 | [`keyframe-motion-explainer`](skills/keyframe-motion-explainer/SKILL.md) | Deterministic device-led motion graphics for security and how-it-works stories |
 | [`source-led-showcase`](skills/source-led-showcase/SKILL.md) | A creator's build or thread retold with their own uncropped clips and STEP chapters |
 | [`remotion-launch-film`](skills/remotion-launch-film/SKILL.md) | 9:16 and 16:9 launch films on real product captures, with facts-of-record config |
@@ -23,7 +26,7 @@ An AI agent skill pack for making short-form videos that are fact-checked, appro
 | [`neuron-visuals-contrast-reels`](skills/neuron-visuals-contrast-reels/SKILL.md) | Silent 10-13 s contrast reels: faceless white figures on a black mirror floor, story told by easing |
 | [`reference-reel-recreation`](skills/reference-reel-recreation/SKILL.md) | Measure a reference reel into a recipe, then rebuild its grammar with your own content |
 | [`video-publish-kit`](skills/video-publish-kit/SKILL.md) | Covers, captions, max 5 hashtags, music credit placement, comment-to-DM CTA, the approval gate |
-| [`frame-review-loop`](skills/frame-review-loop/SKILL.md) | Critique a render from a contact sheet like a strict creative director |
+| [`frame-review-loop`](skills/frame-review-loop/SKILL.md) | After every render: a 20-frame contact sheet, scores, fixes and re-renders until every score is 8+ |
 | [`loopreel-motion-director`](skills/loopreel-motion-director/SKILL.md) | Plan, build and render a short motion film in code |
 | [`mg-styles-review-rubric`](skills/mg-styles-review-rubric/SKILL.md) | Art-director rubric for scoring motion-graphics styles |
 | [`mg-styles-prompt-template`](skills/mg-styles-prompt-template/SKILL.md) | Fill-in template for motion-graphics style prompts |
@@ -43,7 +46,7 @@ An AI agent skill pack for making short-form videos that are fact-checked, appro
 ## House conventions (defaults; the owner can change them)
 1. **Approval before posting.** Always. Deliver cuts in chat and never post or send on your own.
 2. **Never fabricate.** Fact-check every claim, attribute what is reported, and label illustrations and recreated quotes.
-3. **Scripts in the approval format** (`video-script-package`), then wait for a yes before building.
+3. **Scripts** follow `video-script-package` (research, hooks, timeline, fact check), then wait for a yes before building. Standing preferences are in `house-rules`.
 4. **Image-led explainers:** static sharp stills, hard cuts, an image-packed first 10 s, never upscaled or cropped screenshots.
 5. **Motion formats:** at least 85% moving frames (`pipeline/motion_audit.py`), with no idle wobble to game it.
 6. **Audio:** licensed music only, about 20 dB under the voice, mastered to about -14 LUFS. No transition SFX in explainers.
