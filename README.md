@@ -1,8 +1,28 @@
 # Video Agent
 
+Skills for Video Agent: premium short-form reels, documentary long-form, case studies and clipping.
+
 An AI agent skill pack for making short-form videos: **news clips, explainer reels, and premium Remotion product promos**. Every cut is delivered for review and approval. **Video Agent never auto-posts.**
 
+## Skills library
+
+| Name | Description | Folder |
+|---|---|---|
+| brand-motion-kit | Use before any video, cover, end card, lower third, caption overlay or motion graphic for BeingInvested or ivish.studio: colours, type, logo files and rules, tone, and cover specs. | [brand-motion-kit](skills/brand-motion-kit/) |
+| creator-case-study-short | Use when making a 9:16 or 1:1 case-study reel about a creator, account or project that blew up (how they did it, the numbers, the format), with real profile walkthroughs and a call to action. | [creator-case-study-short](skills/creator-case-study-short/) |
+| documentary-visual-style | Use when planning, scripting, generating visuals for, editing or packaging a long-form (12-25 min) faceless story documentary in the Arven/Lume style (true stories of people, money, heists, history): cold open, archival paper-collage explainer system, cinematic AI reconstructions, hook/title/thumbnail formulas and the production pipeline. | [documentary-visual-style](skills/documentary-visual-style/) |
+| Ledger Noir | Use whenever making a short-form news-style explainer or reel for Lighter (lighter.xyz) or any market/finance brand in The London Letter's editorial style: one-breath hook, ~45s wire-service VO, near-monochrome collage with one accent colour, quotable closer. | [ledger-noir](skills/ledger-noir/) |
+| longform-doc-pipeline | Use when producing a long-form (12-20 min, 16:9) faceless money or story documentary end to end: research, script, cloned-voice VO demo, full VO, frame board, animation, review and packaging, with an owner approval gate at each step. | [longform-doc-pipeline](skills/longform-doc-pipeline/) |
+| manavpod-e5-reel-playbook | Use when scripting, editing or QA-ing a 35-50 s vertical tech/defence/robotics/business news Short or Reel in the current Manav Podcast (E5) template: measured targets, visual specs, hooks, QA list. | [manavpod-e5-reel-playbook](skills/manavpod-e5-reel-playbook/) |
+| premium-tech-news-reel | Use when making a vertical 30-60s tech/robotics/business news reel (Instagram Reels, YouTube Shorts, TikTok) with an AI avatar or presenter in the premium 'Manav Podcast' editing style: split-screen hook, b-roll-led storytelling, kinetic titles, maps, count-ups and branded end card. | [premium-tech-news-reel](skills/premium-tech-news-reel/) |
+| trending-topic-scout | Use when picking the next video topic or asked 'what's trending / what can blow up': combines vidIQ trend and outlier data with Google Trends and YouTube/X signals to rank topics by urgency and fit. | [trending-topic-scout](skills/trending-topic-scout/) |
+| x-post-clip-template | Use when turning an X post's video or images into a vertical 9:16 repost clip for a creator page: black background, profile row, short factual hook, uncropped media, source credit, plus caption and prompt. | [x-post-clip-template](skills/x-post-clip-template/) |
+| youtube-banger-titles | Use whenever writing a YouTube (or Shorts) title for an upload. It picks from 100 proven viral title formats and writes a truthful, curiosity-driven title. | [youtube-banger-titles](skills/youtube-banger-titles/) |
+
 ## What it does
+- **Premium short-form reels**: tech, robotics and finance news cuts, brand motion, and title and topic scouting.
+- **Documentary long-form**: faceless story documentaries, from research and voiceover through frame boards and packaging.
+- **Case studies and clipping**: creator case-study reels and vertical clips cut from X posts.
 - **News clips**: 9:16 vertical cuts from source footage with B-roll, a title bar and clean captions.
 - **Explainer reels**: Zach D-style 3D CGI explainer scripts, scene plans and image/video prompts.
 - **Product promos**: screenshot-driven, animation-heavy Remotion videos (9:16 first, then 16:9) with SFX and music synthesized in code.
